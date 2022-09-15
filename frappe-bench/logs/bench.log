@@ -1,0 +1,70 @@
+2022-09-15 12:05:51,949 DEBUG cd /home/sahil/frappe-11/frappe-bench && /usr/bin/virtualenv --quiet env -p python3
+2022-09-15 12:05:55,231 DEBUG cd /home/sahil/frappe-11/frappe-bench && /home/sahil/frappe-11/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-09-15 12:06:02,781 LOG Getting frappe
+2022-09-15 12:06:02,781 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2022-09-15 12:06:07,624 LOG Installing frappe
+2022-09-15 12:06:07,624 DEBUG cd /home/sahil/frappe-11/frappe-bench && /home/sahil/frappe-11/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sahil/frappe-11/frappe-bench/apps/frappe 
+2022-09-15 12:07:32,182 DEBUG cd /home/sahil/frappe-11/frappe-bench/apps/frappe && yarn install
+2022-09-15 12:08:16,930 DEBUG cd frappe-bench && bench build
+2022-09-15 12:08:17,166 INFO /usr/local/bin/bench build
+2022-09-15 12:08:38,283 LOG setting up backups
+2022-09-15 12:08:38,287 LOG backups were set up
+2022-09-15 12:08:38,287 INFO Bench frappe-bench initialized
+2022-09-15 12:08:54,358 INFO /usr/local/bin/bench new-site migoo.com
+2022-09-15 12:09:03,289 INFO /usr/local/bin/bench new-site migoo.in
+2022-09-15 12:16:38,494 INFO /usr/local/bin/bench use migoo.in
+2022-09-15 12:16:45,933 INFO /usr/local/bin/bench get-app payments
+2022-09-15 12:16:50,895 LOG Getting payments
+2022-09-15 12:16:50,895 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-09-15 12:16:55,690 LOG Installing payments
+2022-09-15 12:16:55,690 DEBUG cd /home/sahil/frappe-11/frappe-bench && /home/sahil/frappe-11/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sahil/frappe-11/frappe-bench/apps/payments 
+2022-09-15 12:16:59,753 DEBUG bench build --app payments
+2022-09-15 12:16:59,995 INFO /usr/local/bin/bench build --app payments
+2022-09-15 12:17:07,379 INFO /usr/local/bin/bench get-app erpnext --branch version-14
+2022-09-15 12:17:14,652 LOG Getting erpnext
+2022-09-15 12:17:14,652 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-09-15 12:17:24,061 LOG Installing erpnext
+2022-09-15 12:17:24,061 DEBUG cd /home/sahil/frappe-11/frappe-bench && /home/sahil/frappe-11/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sahil/frappe-11/frappe-bench/apps/erpnext 
+2022-09-15 12:17:35,244 DEBUG cd /home/sahil/frappe-11/frappe-bench/apps/erpnext && yarn install
+2022-09-15 12:17:36,563 DEBUG bench build --app erpnext
+2022-09-15 12:17:36,801 INFO /usr/local/bin/bench build --app erpnext
+2022-09-15 12:17:59,086 INFO /usr/local/bin/bench --site migoo.in install-app erpnext
+2022-09-15 13:04:30,563 INFO /usr/local/bin/bench get-app https://github.com/Pithiya-Nilesh/equipment.git
+2022-09-15 13:04:31,698 LOG Getting equipment
+2022-09-15 13:04:31,698 DEBUG cd ./apps && git clone https://github.com/Pithiya-Nilesh/equipment.git  --depth 1 --origin upstream
+2022-09-15 13:04:38,800 LOG Installing equipment
+2022-09-15 13:04:38,801 DEBUG cd /home/sahil/frappe-11/frappe-bench && /home/sahil/frappe-11/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sahil/frappe-11/frappe-bench/apps/equipment 
+2022-09-15 13:04:41,125 DEBUG bench build --app equipment
+2022-09-15 13:04:41,367 INFO /usr/local/bin/bench build --app equipment
+2022-09-15 13:05:07,028 INFO /usr/local/bin/bench --site migoo.in install-app equipment
+2022-09-15 13:05:19,446 INFO /usr/local/bin/bench start
+2022-09-15 13:05:21,741 INFO /usr/local/bin/bench worker --queue long
+2022-09-15 13:05:21,764 INFO /usr/local/bin/bench watch
+2022-09-15 13:05:21,790 INFO /usr/local/bin/bench serve --port 8000
+2022-09-15 13:05:21,814 INFO /usr/local/bin/bench schedule
+2022-09-15 13:05:21,822 INFO /usr/local/bin/bench worker --queue default
+2022-09-15 13:05:21,839 INFO /usr/local/bin/bench worker --queue short
+2022-09-15 13:15:50,964 INFO /usr/local/bin/bench set-config developer_mode 1
+2022-09-15 13:15:53,553 INFO /usr/local/bin/bench start
+2022-09-15 13:15:56,224 INFO /usr/local/bin/bench worker --queue long
+2022-09-15 13:15:56,229 INFO /usr/local/bin/bench serve --port 8000
+2022-09-15 13:15:56,233 INFO /usr/local/bin/bench watch
+2022-09-15 13:15:56,267 INFO /usr/local/bin/bench schedule
+2022-09-15 13:15:56,319 INFO /usr/local/bin/bench worker --queue short
+2022-09-15 13:15:56,323 INFO /usr/local/bin/bench worker --queue default
+2022-09-15 13:22:29,769 INFO /usr/local/bin/bench get-app hrms
+2022-09-15 13:22:34,438 LOG Getting hrms
+2022-09-15 13:22:34,439 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-09-15 13:22:39,805 LOG Installing hrms
+2022-09-15 13:22:39,805 DEBUG cd /home/sahil/frappe-11/frappe-bench && /home/sahil/frappe-11/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/sahil/frappe-11/frappe-bench/apps/hrms 
+2022-09-15 13:22:43,254 DEBUG bench build --app hrms
+2022-09-15 13:22:43,506 INFO /usr/local/bin/bench build --app hrms
+2022-09-15 13:22:50,793 INFO /usr/local/bin/bench --site sitename install-app hrms
+2022-09-15 13:22:59,968 INFO /usr/local/bin/bench --site migoo.in install-app hrms
+2022-09-15 13:25:07,840 INFO /usr/local/bin/bench start
+2022-09-15 13:25:09,789 INFO /usr/local/bin/bench serve --port 8000
+2022-09-15 13:25:09,945 INFO /usr/local/bin/bench worker --queue short
+2022-09-15 13:25:09,948 INFO /usr/local/bin/bench worker --queue default
+2022-09-15 13:25:09,974 INFO /usr/local/bin/bench schedule
+2022-09-15 13:25:09,999 INFO /usr/local/bin/bench worker --queue long
+2022-09-15 13:25:10,003 INFO /usr/local/bin/bench watch
