@@ -1914,3 +1914,126 @@ frappe.exceptions.LinkValidationError: Could not find User Id: s@gmail.com
 16:16:57 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (5ae65abf-413c-433d-8773-431a2be0cee0)
 16:16:57 home-sahil-frappe-11-frappe-bench:default: Job OK (5ae65abf-413c-433d-8773-431a2be0cee0)
 16:16:57 Result is kept for 600 seconds
+16:20:56 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (156eb1b9-c861-414b-8434-9eaeb09464a3)
+16:20:57 home-sahil-frappe-11-frappe-bench:default: Job OK (156eb1b9-c861-414b-8434-9eaeb09464a3)
+16:20:57 Result is kept for 600 seconds
+16:20:57 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (6a6cefb5-3bc1-4040-8f43-5874e0f2cac4)
+16:20:57 home-sahil-frappe-11-frappe-bench:default: Job OK (6a6cefb5-3bc1-4040-8f43-5874e0f2cac4)
+16:20:57 Result is kept for 600 seconds
+16:20:57 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (4f80f15a-7751-4880-8f56-ad9a603f2e4e)
+16:20:57 home-sahil-frappe-11-frappe-bench:default: Job OK (4f80f15a-7751-4880-8f56-ad9a603f2e4e)
+16:20:57 Result is kept for 600 seconds
+16:20:57 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (3d60fc3f-4196-4f94-9b26-c4d070039bc7)
+16:20:58 home-sahil-frappe-11-frappe-bench:default: Job OK (3d60fc3f-4196-4f94-9b26-c4d070039bc7)
+16:20:58 Result is kept for 600 seconds
+16:20:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (a43ed94f-a74e-4b3d-86d8-bee4c63303f3)
+16:20:58 home-sahil-frappe-11-frappe-bench:default: Job OK (a43ed94f-a74e-4b3d-86d8-bee4c63303f3)
+16:20:58 Result is kept for 600 seconds
+16:20:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (57cd1489-8d95-4289-bcac-70ae29070961)
+16:20:58 home-sahil-frappe-11-frappe-bench:default: Job OK (57cd1489-8d95-4289-bcac-70ae29070961)
+16:20:58 Result is kept for 600 seconds
+16:20:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (123a0749-983c-4659-a453-3a1157c6f1ba)
+16:20:58 home-sahil-frappe-11-frappe-bench:default: Job OK (123a0749-983c-4659-a453-3a1157c6f1ba)
+16:20:58 Result is kept for 600 seconds
+16:20:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (a17da7e5-3c0b-4c9a-99ad-da632a9c81f6)
+16:20:59 home-sahil-frappe-11-frappe-bench:default: Job OK (a17da7e5-3c0b-4c9a-99ad-da632a9c81f6)
+16:20:59 Result is kept for 600 seconds
+16:20:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (371b45c9-0243-4807-9d92-7d2606445cf9)
+16:20:59 home-sahil-frappe-11-frappe-bench:default: Job OK (371b45c9-0243-4807-9d92-7d2606445cf9)
+16:20:59 Result is kept for 600 seconds
+16:24:57 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (905470f3-7847-4f47-8b6e-ef5e84bdb740)
+16:24:57 home-sahil-frappe-11-frappe-bench:default: Job OK (905470f3-7847-4f47-8b6e-ef5e84bdb740)
+16:24:57 Result is kept for 600 seconds
+16:24:57 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (a439e935-dc6d-4539-b47e-1037a05861a3)
+16:24:58 home-sahil-frappe-11-frappe-bench:default: Job OK (a439e935-dc6d-4539-b47e-1037a05861a3)
+16:24:58 Result is kept for 600 seconds
+16:24:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (7e123b4d-3a91-4c54-a220-76856d00a101)
+16:24:58 home-sahil-frappe-11-frappe-bench:default: Job OK (7e123b4d-3a91-4c54-a220-76856d00a101)
+16:24:58 Result is kept for 600 seconds
+16:24:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (ca51adb3-0988-4390-aec8-96c846ff68e1)
+16:24:58 home-sahil-frappe-11-frappe-bench:default: Job OK (ca51adb3-0988-4390-aec8-96c846ff68e1)
+16:24:58 Result is kept for 600 seconds
+16:24:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (ba119b5b-1721-4cfc-a427-14d0302d8d01)
+16:24:58 home-sahil-frappe-11-frappe-bench:default: Job OK (ba119b5b-1721-4cfc-a427-14d0302d8d01)
+16:24:58 Result is kept for 600 seconds
+16:24:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (abea4199-0cb0-4da9-9460-4e38d24b7f56)
+16:24:59 home-sahil-frappe-11-frappe-bench:default: Job OK (abea4199-0cb0-4da9-9460-4e38d24b7f56)
+16:24:59 Result is kept for 600 seconds
+16:24:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (51f4a33d-b9ea-483b-9245-e38e973d3c41)
+16:24:59 home-sahil-frappe-11-frappe-bench:default: Job OK (51f4a33d-b9ea-483b-9245-e38e973d3c41)
+16:24:59 Result is kept for 600 seconds
+16:24:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (3f0060b6-d4a6-4972-85b4-c2d47ab622e7)
+16:24:59 home-sahil-frappe-11-frappe-bench:default: Job OK (3f0060b6-d4a6-4972-85b4-c2d47ab622e7)
+16:24:59 Result is kept for 600 seconds
+16:25:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (96fb7c20-a0cc-4099-a71f-b80ee0f2f733)
+16:25:58 home-sahil-frappe-11-frappe-bench:default: Job OK (96fb7c20-a0cc-4099-a71f-b80ee0f2f733)
+16:25:58 Result is kept for 600 seconds
+16:25:58 Cleaning registries for queue: home-sahil-frappe-11-frappe-bench:default
+16:28:58 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (cd1704d7-48fb-4ab7-bf6c-bd1f801f182c)
+16:28:59 home-sahil-frappe-11-frappe-bench:default: Job OK (cd1704d7-48fb-4ab7-bf6c-bd1f801f182c)
+16:28:59 Result is kept for 600 seconds
+16:28:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (a7cb2fc6-caba-4368-988d-2e2f9729ec18)
+16:28:59 home-sahil-frappe-11-frappe-bench:default: Job OK (a7cb2fc6-caba-4368-988d-2e2f9729ec18)
+16:28:59 Result is kept for 600 seconds
+16:28:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (8e058d2e-0b8a-467a-8c9f-15b541d56949)
+16:28:59 home-sahil-frappe-11-frappe-bench:default: Job OK (8e058d2e-0b8a-467a-8c9f-15b541d56949)
+16:28:59 Result is kept for 600 seconds
+16:28:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (b661e301-5482-4c33-b756-bef9fad195e7)
+16:29:00 home-sahil-frappe-11-frappe-bench:default: Job OK (b661e301-5482-4c33-b756-bef9fad195e7)
+16:29:00 Result is kept for 600 seconds
+16:29:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (8ac465ab-3579-44d8-9d76-ad5b62b1a2a8)
+16:29:00 home-sahil-frappe-11-frappe-bench:default: Job OK (8ac465ab-3579-44d8-9d76-ad5b62b1a2a8)
+16:29:00 Result is kept for 600 seconds
+16:29:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (ecd5f737-8ed6-4e0e-b15c-2d8f9c7189e9)
+16:29:00 home-sahil-frappe-11-frappe-bench:default: Job OK (ecd5f737-8ed6-4e0e-b15c-2d8f9c7189e9)
+16:29:00 Result is kept for 600 seconds
+16:29:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (e9750624-fadf-49a3-ba00-57ff4f6e3ef7)
+16:29:00 home-sahil-frappe-11-frappe-bench:default: Job OK (e9750624-fadf-49a3-ba00-57ff4f6e3ef7)
+16:29:00 Result is kept for 600 seconds
+16:29:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (6a4edd84-d967-4451-9ca0-d51a2a7df406)
+16:29:01 home-sahil-frappe-11-frappe-bench:default: Job OK (6a4edd84-d967-4451-9ca0-d51a2a7df406)
+16:29:01 Result is kept for 600 seconds
+16:30:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_doc..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (e2741cb3-fc79-4e0c-ae2e-b1dc288d90f0)
+16:30:59 home-sahil-frappe-11-frappe-bench:default: Job OK (e2741cb3-fc79-4e0c-ae2e-b1dc288d90f0)
+16:30:59 Result is kept for 600 seconds
+16:30:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (38e27755-87e2-4bc4-8f91-7ddb49e977af)
+16:30:59 home-sahil-frappe-11-frappe-bench:default: Job OK (38e27755-87e2-4bc4-8f91-7ddb49e977af)
+16:30:59 Result is kept for 600 seconds
+16:30:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (9579be4b-4f52-4543-ae3e-a24da5ebab06)
+16:31:00 home-sahil-frappe-11-frappe-bench:default: Job OK (9579be4b-4f52-4543-ae3e-a24da5ebab06)
+16:31:00 Result is kept for 600 seconds
+16:31:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (371bd2e5-81fc-4978-8f7c-fddcf52ab83c)
+16:31:00 home-sahil-frappe-11-frappe-bench:default: Job OK (371bd2e5-81fc-4978-8f7c-fddcf52ab83c)
+16:31:00 Result is kept for 600 seconds
+16:31:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (d08495f3-2af0-44c8-8d20-902910c177f6)
+16:31:00 home-sahil-frappe-11-frappe-bench:default: Job OK (d08495f3-2af0-44c8-8d20-902910c177f6)
+16:31:00 Result is kept for 600 seconds
+16:31:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (d2b6912c-22f6-41d2-aa9e-cd6e59d451a7)
+16:31:00 home-sahil-frappe-11-frappe-bench:default: Job OK (d2b6912c-22f6-41d2-aa9e-cd6e59d451a7)
+16:31:00 Result is kept for 600 seconds
+16:32:59 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (c0751a22-7b58-4e89-96b0-173dc3841e52)
+16:33:00 home-sahil-frappe-11-frappe-bench:default: Job OK (c0751a22-7b58-4e89-96b0-173dc3841e52)
+16:33:00 Result is kept for 600 seconds
+16:33:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (7abe3a22-8c97-4fe3-bf8d-ee7ca10ee4fc)
+16:33:00 home-sahil-frappe-11-frappe-bench:default: Job OK (7abe3a22-8c97-4fe3-bf8d-ee7ca10ee4fc)
+16:33:00 Result is kept for 600 seconds
+16:33:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (9f72d28f-66ff-41aa-a2b2-88705bfecf28)
+16:33:00 home-sahil-frappe-11-frappe-bench:default: Job OK (9f72d28f-66ff-41aa-a2b2-88705bfecf28)
+16:33:00 Result is kept for 600 seconds
+16:33:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (b78dfdb4-36a3-4da4-be4b-373e22d1ff7f)
+16:33:00 home-sahil-frappe-11-frappe-bench:default: Job OK (b78dfdb4-36a3-4da4-be4b-373e22d1ff7f)
+16:33:00 Result is kept for 600 seconds
+16:33:00 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (d1cf12d5-8a0d-4269-b5db-0dbdc1b2d415)
+16:33:01 home-sahil-frappe-11-frappe-bench:default: Job OK (d1cf12d5-8a0d-4269-b5db-0dbdc1b2d415)
+16:33:01 Result is kept for 600 seconds
+16:33:01 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (f829217f-8b7f-4753-967c-bcc5b2d9bb96)
+16:33:01 home-sahil-frappe-11-frappe-bench:default: Job OK (f829217f-8b7f-4753-967c-bcc5b2d9bb96)
+16:33:01 Result is kept for 600 seconds
+16:33:01 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (bb05926c-37f7-4e15-b267-347c3eb16d39)
+16:33:01 home-sahil-frappe-11-frappe-bench:default: Job OK (bb05926c-37f7-4e15-b267-347c3eb16d39)
+16:33:01 Result is kept for 600 seconds
+16:33:01 home-sahil-frappe-11-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='migoo.in', user='Administrator') (3dec87d5-4077-4ba7-8255-4bdb1daf288f)
+16:33:02 home-sahil-frappe-11-frappe-bench:default: Job OK (3dec87d5-4077-4ba7-8255-4bdb1daf288f)
+16:33:02 Result is kept for 600 seconds
+16:34:12 Cleaning registries for queue: home-sahil-frappe-11-frappe-bench:short
+16:34:37 Cleaning registries for queue: home-sahil-frappe-11-frappe-bench:long
